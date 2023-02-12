@@ -7,9 +7,9 @@ import (
 	"github.com/go-faster/errors"
 	"go.uber.org/zap"
 
-	"github.com/ogen-go/ogen/gen/ir"
-	"github.com/ogen-go/ogen/internal/naming"
-	"github.com/ogen-go/ogen/jsonschema"
+	"github.com/morozovcookie/ogen/gen/ir"
+	"github.com/morozovcookie/ogen/internal/naming"
+	"github.com/morozovcookie/ogen/jsonschema"
 )
 
 const defaultSchemaDepthLimit = 1000

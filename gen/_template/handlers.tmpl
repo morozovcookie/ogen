@@ -1,5 +1,5 @@
 {{ define "handlers" }}
-{{- /*gotype: github.com/ogen-go/ogen/gen.TemplateConfig*/ -}}
+{{- /*gotype: github.com/morozovcookie/ogen/gen.TemplateConfig*/ -}}
 {{ $pkg := $.Package }}
 {{ template "header" $ }}
 
@@ -18,7 +18,7 @@
 {{ end }}
 
 {{ define "handlers/operation" }}
-{{- /*gotype: github.com/ogen-go/ogen/gen.OperationElem*/ -}}{{ $op := $.Operation }}
+{{- /*gotype: github.com/morozovcookie/ogen/gen.OperationElem*/ -}}{{ $op := $.Operation }}
 // handle{{ $op.Name }}Request handles {{ $op.PrettyOperationID }} operation.
 //
 {{- template "godoc_op" $op }}

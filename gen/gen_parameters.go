@@ -7,9 +7,9 @@ import (
 	"github.com/go-faster/errors"
 	"go.uber.org/zap"
 
-	"github.com/ogen-go/ogen/gen/ir"
-	"github.com/ogen-go/ogen/jsonschema"
-	"github.com/ogen-go/ogen/openapi"
+	"github.com/morozovcookie/ogen/gen/ir"
+	"github.com/morozovcookie/ogen/jsonschema"
+	"github.com/morozovcookie/ogen/openapi"
 )
 
 func vetHeaderParameterName(log *zap.Logger, name string, loc position, ignore ...string) (skip bool) {

@@ -10,8 +10,8 @@ import (
 	"github.com/go-faster/errors"
 	"github.com/go-faster/jx"
 
-	"github.com/ogen-go/ogen/ogenerrors"
-	"github.com/ogen-go/ogen/validate"
+	"github.com/morozovcookie/ogen/ogenerrors"
+	"github.com/morozovcookie/ogen/validate"
 )
 
 func decodeMarketBondsGetResponse(resp *http.Response) (res MarketBondsGetRes, err error) {

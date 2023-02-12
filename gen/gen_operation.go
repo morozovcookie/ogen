@@ -5,9 +5,9 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/ogen-go/ogen/gen/ir"
-	"github.com/ogen-go/ogen/internal/xslices"
-	"github.com/ogen-go/ogen/openapi"
+	"github.com/morozovcookie/ogen/gen/ir"
+	"github.com/morozovcookie/ogen/internal/xslices"
+	"github.com/morozovcookie/ogen/openapi"
 )
 
 func (g *Generator) generateOperation(ctx *genctx, webhookName string, spec *openapi.Operation) (_ *ir.Operation, err error) {

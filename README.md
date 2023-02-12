@@ -2,26 +2,26 @@
 <img width="256" height="256" src="_logo/logo.svg" alt="ogen svg logo">
 </p>
 
-# ogen [![Go Reference](https://img.shields.io/badge/go-pkg-00ADD8)](https://pkg.go.dev/github.com/ogen-go/ogen#section-documentation) [![codecov](https://img.shields.io/codecov/c/github/ogen-go/ogen?label=cover)](https://codecov.io/gh/ogen-go/ogen) [![alpha](https://img.shields.io/badge/-alpha-orange)](https://go-faster.org/docs/projects/status#alpha)
+# ogen [![Go Reference](https://img.shields.io/badge/go-pkg-00ADD8)](https://pkg.go.dev/github.com/morozovcookie/ogen#section-documentation) [![codecov](https://img.shields.io/codecov/c/github/ogen-go/ogen?label=cover)](https://codecov.io/gh/ogen-go/ogen) [![alpha](https://img.shields.io/badge/-alpha-orange)](https://go-faster.org/docs/projects/status#alpha)
 
 Opinionated OpenAPI v3 Code Generator for Go.
 
 - [Getting started](https://ogen.dev/docs/intro)
 - [Sample project](https://github.com/ogen-go/example)
-- [Security policy](https://github.com/ogen-go/ogen/blob/-/SECURITY.md)
+- [Security policy](https://github.com/morozovcookie/ogen/blob/-/SECURITY.md)
 - [Telegram group `@ogen_dev`](https://t.me/ogen_dev)
-- [Roadmap](https://github.com/ogen-go/ogen/blob/-/ROADMAP.md)
+- [Roadmap](https://github.com/morozovcookie/ogen/blob/-/ROADMAP.md)
 
 Work is still in progress, so currently no backward compatibility is provided. However, we are close to alpha.
 
 # Install
 ```console
-go get -d github.com/ogen-go/ogen
+go get -d github.com/morozovcookie/ogen
 ```
 
 # Usage
 ```go
-//go:generate go run github.com/ogen-go/ogen/cmd/ogen --target target/dir -package api --clean schema.json
+//go:generate go run github.com/morozovcookie/ogen/cmd/ogen --target target/dir -package api --clean schema.json
 ```
 
 # Features
@@ -286,6 +286,6 @@ func (s *Error) Decode(d *jx.Decoder) error {
 
 - [Getting started](https://ogen.dev/docs/intro)
 - [Sample project](https://github.com/ogen-go/example)
-- [Security policy](https://github.com/ogen-go/ogen/blob/-/SECURITY.md)
+- [Security policy](https://github.com/morozovcookie/ogen/blob/-/SECURITY.md)
 - [Telegram chat `@ogen_dev`](https://t.me/ogen_dev)
-- [Roadmap](https://github.com/ogen-go/ogen/blob/-/ROADMAP.md)
+- [Roadmap](https://github.com/morozovcookie/ogen/blob/-/ROADMAP.md)

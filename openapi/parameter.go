@@ -1,8 +1,8 @@
 package openapi
 
 import (
-	"github.com/ogen-go/ogen/internal/location"
-	"github.com/ogen-go/ogen/jsonschema"
+	"github.com/morozovcookie/ogen/internal/location"
+	"github.com/morozovcookie/ogen/jsonschema"
 )
 
 // ParameterLocation defines where OpenAPI parameter is located.

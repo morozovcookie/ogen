@@ -11,9 +11,9 @@ import (
 	"github.com/go-faster/errors"
 	"github.com/go-faster/jx"
 
-	ht "github.com/ogen-go/ogen/http"
-	"github.com/ogen-go/ogen/ogenerrors"
-	"github.com/ogen-go/ogen/validate"
+	ht "github.com/morozovcookie/ogen/http"
+	"github.com/morozovcookie/ogen/ogenerrors"
+	"github.com/morozovcookie/ogen/validate"
 )
 
 func decodeConnectCoreV1DeleteNamespacedPodProxyResponse(resp *http.Response) (res ConnectCoreV1DeleteNamespacedPodProxyRes, err error) {

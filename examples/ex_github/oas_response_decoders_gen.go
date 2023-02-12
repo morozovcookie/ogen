@@ -11,10 +11,10 @@ import (
 	"github.com/go-faster/errors"
 	"github.com/go-faster/jx"
 
-	"github.com/ogen-go/ogen/conv"
-	"github.com/ogen-go/ogen/ogenerrors"
-	"github.com/ogen-go/ogen/uri"
-	"github.com/ogen-go/ogen/validate"
+	"github.com/morozovcookie/ogen/conv"
+	"github.com/morozovcookie/ogen/ogenerrors"
+	"github.com/morozovcookie/ogen/uri"
+	"github.com/morozovcookie/ogen/validate"
 )
 
 func decodeActionsAddRepoAccessToSelfHostedRunnerGroupInOrgResponse(resp *http.Response) (res *ActionsAddRepoAccessToSelfHostedRunnerGroupInOrgNoContent, err error) {

@@ -1,6 +1,6 @@
 package openapi
 
-import "github.com/ogen-go/ogen/internal/location"
+import "github.com/morozovcookie/ogen/internal/location"
 
 // SecurityScheme defines one of security schemes used in the security requirement.
 type SecurityScheme struct {

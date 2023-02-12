@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ogen-go/ogen/gen/ir"
+	"github.com/morozovcookie/ogen/gen/ir"
 )
 
 func typeOf[T any]() reflect.Type {

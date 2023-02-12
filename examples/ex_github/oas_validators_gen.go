@@ -7,7 +7,7 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/ogen-go/ogen/validate"
+	"github.com/morozovcookie/ogen/validate"
 )
 
 func (s *ActionsCreateOrUpdateEnvironmentSecretReq) Validate() error {

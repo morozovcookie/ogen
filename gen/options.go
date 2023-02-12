@@ -16,11 +16,11 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/exp/slices"
 
-	"github.com/ogen-go/ogen/gen/ir"
-	"github.com/ogen-go/ogen/internal/location"
-	"github.com/ogen-go/ogen/internal/urlpath"
-	"github.com/ogen-go/ogen/jsonschema"
-	"github.com/ogen-go/ogen/openapi"
+	"github.com/morozovcookie/ogen/gen/ir"
+	"github.com/morozovcookie/ogen/internal/location"
+	"github.com/morozovcookie/ogen/internal/urlpath"
+	"github.com/morozovcookie/ogen/jsonschema"
+	"github.com/morozovcookie/ogen/openapi"
 )
 
 // RemoteOptions is remote reference resolver options.
@@ -53,7 +53,7 @@ type Options struct {
 
 	// AllowRemote enables remote references resolving.
 	//
-	// See https://github.com/ogen-go/ogen/issues/385.
+	// See https://github.com/morozovcookie/ogen/issues/385.
 	AllowRemote bool
 	// RootURL is root URL for remote references resolving.
 	RootURL *url.URL

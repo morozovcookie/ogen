@@ -5,7 +5,7 @@ package api
 import (
 	"net/http"
 
-	"github.com/ogen-go/ogen/validate"
+	"github.com/morozovcookie/ogen/validate"
 )
 
 func decodeDisjointSecurityResponse(resp *http.Response) (res *DisjointSecurityOK, err error) {

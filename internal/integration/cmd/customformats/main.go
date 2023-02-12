@@ -8,17 +8,17 @@ import (
 	"github.com/go-faster/errors"
 	"go.uber.org/zap"
 
-	"github.com/ogen-go/ogen"
-	"github.com/ogen-go/ogen/gen"
-	"github.com/ogen-go/ogen/gen/genfs"
-	"github.com/ogen-go/ogen/internal/integration/customformats/eventtype"
-	"github.com/ogen-go/ogen/internal/integration/customformats/hextype"
-	"github.com/ogen-go/ogen/internal/integration/customformats/phonetype"
-	"github.com/ogen-go/ogen/internal/integration/customformats/rgbatype"
-	"github.com/ogen-go/ogen/internal/location"
-	"github.com/ogen-go/ogen/internal/ogenzap"
-	"github.com/ogen-go/ogen/internal/urlpath"
-	"github.com/ogen-go/ogen/jsonschema"
+	"github.com/morozovcookie/ogen"
+	"github.com/morozovcookie/ogen/gen"
+	"github.com/morozovcookie/ogen/gen/genfs"
+	"github.com/morozovcookie/ogen/internal/integration/customformats/eventtype"
+	"github.com/morozovcookie/ogen/internal/integration/customformats/hextype"
+	"github.com/morozovcookie/ogen/internal/integration/customformats/phonetype"
+	"github.com/morozovcookie/ogen/internal/integration/customformats/rgbatype"
+	"github.com/morozovcookie/ogen/internal/location"
+	"github.com/morozovcookie/ogen/internal/ogenzap"
+	"github.com/morozovcookie/ogen/internal/urlpath"
+	"github.com/morozovcookie/ogen/jsonschema"
 )
 
 func run(specPath, targetDir string) error {

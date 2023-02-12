@@ -11,8 +11,8 @@ import (
 	"github.com/go-faster/jx"
 	"go.uber.org/multierr"
 
-	"github.com/ogen-go/ogen/ogenerrors"
-	"github.com/ogen-go/ogen/validate"
+	"github.com/morozovcookie/ogen/ogenerrors"
+	"github.com/morozovcookie/ogen/validate"
 )
 
 func (s *Server) decodeAddStickerToSetRequest(r *http.Request) (

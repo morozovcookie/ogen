@@ -11,8 +11,8 @@ import (
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/ogen-go/ogen/conv"
-	"github.com/ogen-go/ogen/uri"
+	"github.com/morozovcookie/ogen/conv"
+	"github.com/morozovcookie/ogen/uri"
 )
 
 func encodeAnyContentTypeBinaryStringSchemaResponse(response AnyContentTypeBinaryStringSchemaOK, w http.ResponseWriter, span trace.Span) error {

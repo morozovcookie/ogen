@@ -1,4 +1,4 @@
-{{- /*gotype: github.com/ogen-go/ogen/gen.TemplateConfig*/ -}}
+{{- /*gotype: github.com/morozovcookie/ogen/gen.TemplateConfig*/ -}}
 {{ define "router" }}
 {{ template "header" $ }}
 {{- $router := $.Router }}
@@ -158,7 +158,7 @@ func (s *WebhookServer) Handler(webhookName string) http.Handler {
 {{ end }}
 
 {{ define "route_handle_request" }}
-{{- /*gotype: github.com/ogen-go/ogen/gen.RouteNode*/ -}}
+{{- /*gotype: github.com/morozovcookie/ogen/gen.RouteNode*/ -}}
 	switch r.Method {
 	{{- range $r := $.Routes }}
 	case {{ quote $r.Method }}:
@@ -175,7 +175,7 @@ func (s *WebhookServer) Handler(webhookName string) http.Handler {
 {{ end }}
 
 {{ define "route_edge" }}
-{{- /*gotype: github.com/ogen-go/ogen/gen.RouterElem*/ -}}
+{{- /*gotype: github.com/morozovcookie/ogen/gen.RouterElem*/ -}}
 {{- $r := $.Route }}
 {{- if $r.IsLeaf }}
 	if len(elem) == 0 {
@@ -236,7 +236,7 @@ func (s *WebhookServer) Handler(webhookName string) http.Handler {
 {{- end }}
 
 {{ define "find_edge" }}
-{{- /*gotype: github.com/ogen-go/ogen/gen.RouterElem*/ -}}
+{{- /*gotype: github.com/morozovcookie/ogen/gen.RouterElem*/ -}}
 {{- $r := $.Route }}
 {{- if $r.IsLeaf }}
 	if len(elem) == 0 {

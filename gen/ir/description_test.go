@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ogen-go/ogen/internal/naming"
+	"github.com/morozovcookie/ogen/internal/naming"
 )
 
 func Test_prettyDoc(t *testing.T) {

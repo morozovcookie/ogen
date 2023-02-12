@@ -3,8 +3,8 @@
 package api
 
 import (
-	custom2 "github.com/ogen-go/ogen/internal/integration/customformats/phonetype"
-	custom3 "github.com/ogen-go/ogen/internal/integration/customformats/rgbatype"
+	custom2 "github.com/morozovcookie/ogen/internal/integration/customformats/phonetype"
+	custom3 "github.com/morozovcookie/ogen/internal/integration/customformats/rgbatype"
 )
 
 // NewOptHex returns new OptHex with value set to v.

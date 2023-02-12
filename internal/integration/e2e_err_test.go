@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	api "github.com/ogen-go/ogen/internal/integration/sample_err"
+	api "github.com/morozovcookie/ogen/internal/integration/sample_err"
 )
 
 type sampleErrServer struct {

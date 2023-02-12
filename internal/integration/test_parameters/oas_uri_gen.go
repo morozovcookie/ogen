@@ -8,9 +8,9 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/ogen-go/ogen/conv"
-	"github.com/ogen-go/ogen/uri"
-	"github.com/ogen-go/ogen/validate"
+	"github.com/morozovcookie/ogen/conv"
+	"github.com/morozovcookie/ogen/uri"
+	"github.com/morozovcookie/ogen/validate"
 )
 
 // EncodeURI encodes OneLevelObject as URI form.

@@ -1,4 +1,4 @@
-module github.com/ogen-go/ogen
+module github.com/morozovcookie/ogen
 
 go 1.18
 

@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ogen-go/ogen"
-	"github.com/ogen-go/ogen/internal/location"
+	"github.com/morozovcookie/ogen"
+	"github.com/morozovcookie/ogen/internal/location"
 )
 
 func Test_validateOAuthFlows(t *testing.T) {

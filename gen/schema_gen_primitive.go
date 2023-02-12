@@ -7,8 +7,8 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/ogen-go/ogen/gen/ir"
-	"github.com/ogen-go/ogen/jsonschema"
+	"github.com/morozovcookie/ogen/gen/ir"
+	"github.com/morozovcookie/ogen/jsonschema"
 )
 
 func (g *schemaGen) primitive(name string, schema *jsonschema.Schema) (*ir.Type, error) {
@@ -184,7 +184,7 @@ func TypeFormatMapping() map[jsonschema.SchemaType]map[string]ir.PrimitiveType {
 			"uint32": ir.Uint32,
 			"uint64": ir.Uint64,
 
-			// See https://github.com/ogen-go/ogen/issues/307.
+			// See https://github.com/morozovcookie/ogen/issues/307.
 			"unix":         ir.Time,
 			"unix-seconds": ir.Time,
 			"unix-nano":    ir.Time,
@@ -216,10 +216,10 @@ func TypeFormatMapping() map[jsonschema.SchemaType]map[string]ir.PrimitiveType {
 			"hostname":  ir.String,
 			"":          ir.String,
 
-			// Custom format, see https://github.com/ogen-go/ogen/issues/309.
+			// Custom format, see https://github.com/morozovcookie/ogen/issues/309.
 			"int32": ir.Int32,
 			"int64": ir.Int64,
-			// See https://github.com/ogen-go/ogen/issues/307.
+			// See https://github.com/morozovcookie/ogen/issues/307.
 			"unix":         ir.Time,
 			"unix-seconds": ir.Time,
 			"unix-nano":    ir.Time,

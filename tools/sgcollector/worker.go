@@ -15,9 +15,9 @@ import (
 	yaml "github.com/go-faster/yamlx"
 	"golang.org/x/exp/slices"
 
-	"github.com/ogen-go/ogen"
-	"github.com/ogen-go/ogen/gen"
-	"github.com/ogen-go/ogen/internal/location"
+	"github.com/morozovcookie/ogen"
+	"github.com/morozovcookie/ogen/gen"
+	"github.com/morozovcookie/ogen/internal/location"
 )
 
 var errPanic = errors.New("panic")

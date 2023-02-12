@@ -10,8 +10,8 @@ import (
 	helperyaml "github.com/ghodss/yaml"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ogen-go/ogen"
-	"github.com/ogen-go/ogen/internal/testutil"
+	"github.com/morozovcookie/ogen"
+	"github.com/morozovcookie/ogen/internal/testutil"
 )
 
 //go:embed _testdata

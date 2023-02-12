@@ -9,7 +9,7 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/ogen-go/ogen/ogenerrors"
+	"github.com/morozovcookie/ogen/ogenerrors"
 )
 
 // SecurityHandler is handler for security parameters.

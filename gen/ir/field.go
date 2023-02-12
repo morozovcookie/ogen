@@ -7,9 +7,9 @@ import (
 
 	"golang.org/x/exp/slices"
 
-	"github.com/ogen-go/ogen/internal/xmaps"
-	"github.com/ogen-go/ogen/jsonschema"
-	"github.com/ogen-go/ogen/openapi"
+	"github.com/morozovcookie/ogen/internal/xmaps"
+	"github.com/morozovcookie/ogen/jsonschema"
+	"github.com/morozovcookie/ogen/openapi"
 )
 
 // Tag of Field.

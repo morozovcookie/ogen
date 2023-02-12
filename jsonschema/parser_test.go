@@ -11,8 +11,8 @@ import (
 	yaml "github.com/go-faster/yamlx"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ogen-go/ogen/internal/jsonpointer"
-	"github.com/ogen-go/ogen/internal/location"
+	"github.com/morozovcookie/ogen/internal/jsonpointer"
+	"github.com/morozovcookie/ogen/internal/location"
 )
 
 type components map[string]*RawSchema

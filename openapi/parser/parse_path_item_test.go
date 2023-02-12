@@ -6,7 +6,7 @@ import (
 	yaml "github.com/go-faster/yamlx"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ogen-go/ogen"
+	"github.com/morozovcookie/ogen"
 )
 
 // Check that parser correctly handles paths with escaped slashes.

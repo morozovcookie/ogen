@@ -3,8 +3,8 @@ package jsonschema
 import (
 	"github.com/go-faster/errors"
 
-	"github.com/ogen-go/ogen/internal/jsonpointer"
-	"github.com/ogen-go/ogen/internal/location"
+	"github.com/morozovcookie/ogen/internal/jsonpointer"
+	"github.com/morozovcookie/ogen/internal/location"
 )
 
 // LocationError is a wrapper for an error that has a location.

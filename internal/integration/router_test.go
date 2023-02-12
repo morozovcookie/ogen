@@ -12,7 +12,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	api "github.com/ogen-go/ogen/internal/integration/sample_api"
+	api "github.com/morozovcookie/ogen/internal/integration/sample_api"
 )
 
 func BenchmarkFindRoute(b *testing.B) {

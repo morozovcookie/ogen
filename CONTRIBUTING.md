@@ -3,7 +3,7 @@
 This project follows [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
 Before creating pull requests, please read the [coding guidelines](https://github.com/uber-go/guide/blob/master/style.md) and
-follow some existing [pull requests](https://github.com/ogen-go/ogen/pulls).
+follow some existing [pull requests](https://github.com/morozovcookie/ogen/pulls).
 
 ## Optimizations
 

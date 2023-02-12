@@ -5,7 +5,7 @@ package api
 import (
 	"github.com/google/uuid"
 
-	ht "github.com/ogen-go/ogen/http"
+	ht "github.com/morozovcookie/ogen/http"
 )
 
 // NewOptInt returns new OptInt with value set to v.

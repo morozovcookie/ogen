@@ -11,9 +11,9 @@ import (
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/ogen-go/ogen/middleware"
-	"github.com/ogen-go/ogen/ogenerrors"
-	"github.com/ogen-go/ogen/otelogen"
+	"github.com/morozovcookie/ogen/middleware"
+	"github.com/morozovcookie/ogen/ogenerrors"
+	"github.com/morozovcookie/ogen/otelogen"
 )
 
 // handleActionsAddRepoAccessToSelfHostedRunnerGroupInOrgRequest handles actions/add-repo-access-to-self-hosted-runner-group-in-org operation.

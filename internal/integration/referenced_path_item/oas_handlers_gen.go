@@ -10,7 +10,7 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/codes"
 
-	"github.com/ogen-go/ogen/middleware"
+	"github.com/morozovcookie/ogen/middleware"
 )
 
 // handleFooGetRequest handles GET /foo operation.

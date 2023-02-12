@@ -5,7 +5,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/ogen-go/ogen/internal/naming"
+	"github.com/morozovcookie/ogen/internal/naming"
 )
 
 func splitLine(s string, limit int) (r []string) {

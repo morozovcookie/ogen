@@ -7,8 +7,8 @@ import (
 	"github.com/go-faster/errors"
 	"golang.org/x/exp/slices"
 
-	"github.com/ogen-go/ogen/gen/ir"
-	"github.com/ogen-go/ogen/openapi"
+	"github.com/morozovcookie/ogen/gen/ir"
+	"github.com/morozovcookie/ogen/openapi"
 )
 
 // Route describes route.

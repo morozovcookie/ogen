@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/ogen-go/ogen/uri"
+	"github.com/morozovcookie/ogen/uri"
 )
 
 // ServeHTTP serves http request as defined by OpenAPI v3 specification,

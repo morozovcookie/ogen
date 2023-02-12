@@ -1,5 +1,5 @@
 {{ define "parameter_decoder" }}
-{{- /*gotype: github.com/ogen-go/ogen/gen/ir.Operation*/ -}}
+{{- /*gotype: github.com/morozovcookie/ogen/gen/ir.Operation*/ -}}
 {{ if $.Params }}
 func unpack{{ $.Name }}Params(packed middleware.Parameters) (params {{ $.Name }}Params) {
 	{{- range $p := $.Params }}
@@ -167,7 +167,7 @@ func decode{{ $.Name }}Params(args [{{ $.PathParamsCount }}]string, r *http.Requ
 {{ end }}
 
 {{ define "decode_parameter" }}{{ $param := $ }}
-{{- /*gotype: github.com/ogen-go/ogen/gen/ir.Parameter*/ -}}
+{{- /*gotype: github.com/morozovcookie/ogen/gen/ir.Parameter*/ -}}
 {{- $el := elem $param.Type (printf "params.%s" $param.Name) }}
 {{- if $param.Spec.Content }}
 	val, err := d.DecodeValue()

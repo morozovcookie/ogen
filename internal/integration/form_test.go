@@ -17,9 +17,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	ht "github.com/ogen-go/ogen/http"
-	api "github.com/ogen-go/ogen/internal/integration/test_form"
-	"github.com/ogen-go/ogen/validate"
+	ht "github.com/morozovcookie/ogen/http"
+	api "github.com/morozovcookie/ogen/internal/integration/test_form"
+	"github.com/morozovcookie/ogen/validate"
 )
 
 func testForm() *api.TestForm {

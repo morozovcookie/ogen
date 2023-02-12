@@ -1,4 +1,4 @@
-{{- /*gotype: github.com/ogen-go/ogen/gen.TemplateConfig*/ -}}
+{{- /*gotype: github.com/morozovcookie/ogen/gen.TemplateConfig*/ -}}
 {{ define "response_encoders" }}
 {{ $pkg := $.Package }}
 {{ template "header" $ }}
@@ -37,7 +37,7 @@ func encodeErrorResponse(response {{ $.ErrorGoType }}, w http.ResponseWriter, sp
 {{ end }}
 
 {{ define "response_encoders/operation" }}
-{{- /*gotype: github.com/ogen-go/ogen/gen/ir.Operation*/ -}}{{ $op := $ }}
+{{- /*gotype: github.com/morozovcookie/ogen/gen/ir.Operation*/ -}}{{ $op := $ }}
 func encode{{ $op.Name }}Response(response {{ $op.Responses.GoType }}, w http.ResponseWriter, span trace.Span) error {
 	{{- if eq (len $op.ListResponseTypes) 1 }}
 		{{- range $info := $op.ListResponseTypes }}
@@ -57,7 +57,7 @@ func encode{{ $op.Name }}Response(response {{ $op.Responses.GoType }}, w http.Re
 {{ end }}
 
 {{ define "respond" }}
-{{- /*gotype: github.com/ogen-go/ogen/gen/ir.ResponseInfo*/ -}}
+{{- /*gotype: github.com/morozovcookie/ogen/gen/ir.ResponseInfo*/ -}}
 
 {{- if and (not $.NoContent) (not $.ContentType.Mask) }}
 	w.Header().Set("Content-Type", {{ quote $.ContentType }})

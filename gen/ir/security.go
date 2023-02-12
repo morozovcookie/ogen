@@ -1,7 +1,7 @@
 package ir
 
 import (
-	"github.com/ogen-go/ogen/internal/bitset"
+	"github.com/morozovcookie/ogen/internal/bitset"
 )
 
 // SecurityKind defines security kind.

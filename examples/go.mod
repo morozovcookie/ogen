@@ -1,4 +1,4 @@
-module github.com/ogen-go/ogen/examples
+module github.com/morozovcookie/ogen/examples
 
 go 1.18
 
@@ -6,7 +6,7 @@ require (
 	github.com/go-faster/errors v0.6.1
 	github.com/go-faster/jx v0.42.0-alpha.1
 	github.com/google/uuid v1.3.0
-	github.com/ogen-go/ogen v0.0.0
+	github.com/morozovcookie/ogen v0.0.0
 	github.com/stretchr/testify v1.8.1
 	go.opentelemetry.io/otel v1.13.0
 	go.opentelemetry.io/otel/metric v0.36.0
@@ -36,4 +36,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/ogen-go/ogen v0.0.0 => ./..
+replace github.com/morozovcookie/ogen v0.0.0 => ./..

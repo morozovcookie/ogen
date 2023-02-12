@@ -5,7 +5,7 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/ogen-go/ogen/openapi"
+	"github.com/morozovcookie/ogen/openapi"
 )
 
 func (p *parser) parseVersion() (rerr error) {

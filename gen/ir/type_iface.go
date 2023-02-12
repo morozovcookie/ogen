@@ -5,7 +5,7 @@ import (
 
 	"golang.org/x/exp/slices"
 
-	"github.com/ogen-go/ogen/internal/xmaps"
+	"github.com/morozovcookie/ogen/internal/xmaps"
 )
 
 func (t *Type) CanHaveMethods() bool {

@@ -13,13 +13,13 @@ import (
 	yaml "github.com/go-faster/yamlx"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ogen-go/ogen"
-	"github.com/ogen-go/ogen/internal/jsonpointer"
-	"github.com/ogen-go/ogen/internal/location"
-	"github.com/ogen-go/ogen/internal/testutil"
-	"github.com/ogen-go/ogen/jsonschema"
-	"github.com/ogen-go/ogen/openapi"
-	"github.com/ogen-go/ogen/openapi/parser"
+	"github.com/morozovcookie/ogen"
+	"github.com/morozovcookie/ogen/internal/jsonpointer"
+	"github.com/morozovcookie/ogen/internal/location"
+	"github.com/morozovcookie/ogen/internal/testutil"
+	"github.com/morozovcookie/ogen/jsonschema"
+	"github.com/morozovcookie/ogen/openapi"
+	"github.com/morozovcookie/ogen/openapi/parser"
 )
 
 //go:embed _testdata

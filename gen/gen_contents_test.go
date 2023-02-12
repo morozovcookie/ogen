@@ -9,7 +9,7 @@ import (
 	"go.uber.org/zap/zapcore"
 	"go.uber.org/zap/zaptest/observer"
 
-	"github.com/ogen-go/ogen/openapi"
+	"github.com/morozovcookie/ogen/openapi"
 )
 
 func Test_filterMostSpecific(t *testing.T) {

@@ -11,9 +11,9 @@ import (
 	"github.com/go-faster/jx"
 	"go.uber.org/multierr"
 
-	ht "github.com/ogen-go/ogen/http"
-	"github.com/ogen-go/ogen/ogenerrors"
-	"github.com/ogen-go/ogen/validate"
+	ht "github.com/morozovcookie/ogen/http"
+	"github.com/morozovcookie/ogen/ogenerrors"
+	"github.com/morozovcookie/ogen/validate"
 )
 
 func (s *Server) decodeActionsCreateOrUpdateEnvironmentSecretRequest(r *http.Request) (

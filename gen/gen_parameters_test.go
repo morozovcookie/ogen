@@ -9,7 +9,7 @@ import (
 	"go.uber.org/zap/zaptest"
 	"go.uber.org/zap/zaptest/observer"
 
-	"github.com/ogen-go/ogen/openapi"
+	"github.com/morozovcookie/ogen/openapi"
 )
 
 func Test_vetHeaderParameterName(t *testing.T) {

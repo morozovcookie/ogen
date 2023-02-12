@@ -1,9 +1,9 @@
 package jsonschema
 
 import (
-	"github.com/ogen-go/ogen/internal/jsonpointer"
-	"github.com/ogen-go/ogen/internal/location"
-	"github.com/ogen-go/ogen/ogenregex"
+	"github.com/morozovcookie/ogen/internal/jsonpointer"
+	"github.com/morozovcookie/ogen/internal/location"
+	"github.com/morozovcookie/ogen/ogenregex"
 )
 
 // SchemaType is a JSON Schema type.

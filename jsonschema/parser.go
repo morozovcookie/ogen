@@ -9,10 +9,10 @@ import (
 	"github.com/go-faster/errors"
 	"golang.org/x/exp/slices"
 
-	"github.com/ogen-go/ogen/internal/jsonpointer"
-	"github.com/ogen-go/ogen/internal/location"
-	ogenjson "github.com/ogen-go/ogen/json"
-	"github.com/ogen-go/ogen/ogenregex"
+	"github.com/morozovcookie/ogen/internal/jsonpointer"
+	"github.com/morozovcookie/ogen/internal/location"
+	ogenjson "github.com/morozovcookie/ogen/json"
+	"github.com/morozovcookie/ogen/ogenregex"
 )
 
 const (

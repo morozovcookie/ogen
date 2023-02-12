@@ -7,8 +7,8 @@ import (
 	"github.com/go-faster/errors"
 	"go.uber.org/zap"
 
-	"github.com/ogen-go/ogen/gen/ir"
-	"github.com/ogen-go/ogen/jsonschema"
+	"github.com/morozovcookie/ogen/gen/ir"
+	"github.com/morozovcookie/ogen/jsonschema"
 )
 
 func saveSchemaTypes(ctx *genctx, gen *schemaGen) error {

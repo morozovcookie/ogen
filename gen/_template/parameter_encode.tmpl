@@ -1,4 +1,4 @@
-{{ define "encode_path_parameters" }}{{/*gotype: github.com/ogen-go/ogen/gen/ir.Operation*/}}
+{{ define "encode_path_parameters" }}{{/*gotype: github.com/morozovcookie/ogen/gen/ir.Operation*/}}
 u := uri.Clone(c.requestURL(ctx))
 {{- range $part := $.PathParts }}{{/* Range over path parts */}}
 	{{- if $part.Raw }}
@@ -23,7 +23,7 @@ u := uri.Clone(c.requestURL(ctx))
 {{- end }}
 {{- end }}
 
-{{ define "encode_query_parameters" }}{{/*gotype: github.com/ogen-go/ogen/gen/ir.Operation*/}}
+{{ define "encode_query_parameters" }}{{/*gotype: github.com/morozovcookie/ogen/gen/ir.Operation*/}}
 q := uri.NewQueryEncoder()
 {{- range $p := $.QueryParams }}
 {
@@ -44,7 +44,7 @@ q := uri.NewQueryEncoder()
 u.RawQuery = q.Values().Encode()
 {{- end }}
 
-{{ define "encode_header_parameters" }}{{/*gotype: github.com/ogen-go/ogen/gen/ir.Operation*/}}
+{{ define "encode_header_parameters" }}{{/*gotype: github.com/morozovcookie/ogen/gen/ir.Operation*/}}
 h := uri.NewHeaderEncoder(r.Header)
 {{- range $p := $.HeaderParams }}
 {
@@ -61,7 +61,7 @@ h := uri.NewHeaderEncoder(r.Header)
 {{- end }}
 {{ end }}
 
-{{ define "encode_cookie_parameters" }}{{/*gotype: github.com/ogen-go/ogen/gen/ir.Operation*/}}
+{{ define "encode_cookie_parameters" }}{{/*gotype: github.com/morozovcookie/ogen/gen/ir.Operation*/}}
 cookie := uri.NewCookieEncoder(r)
 {{- range $p := $.CookieParams }}
 {
@@ -80,7 +80,7 @@ cookie := uri.NewCookieEncoder(r)
 {{- end }}
 {{ end }}
 
-{{ define "encode_parameter" }}{{/*gotype: github.com/ogen-go/ogen/gen/ir.Parameter*/}}
+{{ define "encode_parameter" }}{{/*gotype: github.com/morozovcookie/ogen/gen/ir.Parameter*/}}
 {{- $param := $ }}
 {{- $el := elem $param.Type (printf "params.%s" $param.Name) }}
 {{- if $param.Spec.Content }}

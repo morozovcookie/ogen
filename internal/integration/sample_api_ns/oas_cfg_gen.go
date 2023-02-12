@@ -12,9 +12,9 @@ import (
 	"go.opentelemetry.io/otel/metric/instrument"
 	"go.opentelemetry.io/otel/trace"
 
-	ht "github.com/ogen-go/ogen/http"
-	"github.com/ogen-go/ogen/ogenregex"
-	"github.com/ogen-go/ogen/otelogen"
+	ht "github.com/morozovcookie/ogen/http"
+	"github.com/morozovcookie/ogen/ogenregex"
+	"github.com/morozovcookie/ogen/otelogen"
 )
 
 var regexMap = map[string]ogenregex.Regexp{

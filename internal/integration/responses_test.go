@@ -14,7 +14,7 @@ import (
 	"github.com/go-faster/jx"
 	"github.com/stretchr/testify/require"
 
-	api "github.com/ogen-go/ogen/internal/integration/test_http_responses"
+	api "github.com/morozovcookie/ogen/internal/integration/test_http_responses"
 )
 
 type testHTTPResponses struct {

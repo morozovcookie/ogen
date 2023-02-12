@@ -8,7 +8,7 @@ import (
 
 	"github.com/go-faster/jx"
 
-	ht "github.com/ogen-go/ogen/http"
+	ht "github.com/morozovcookie/ogen/http"
 )
 
 func encodeAddStickerToSetRequest(

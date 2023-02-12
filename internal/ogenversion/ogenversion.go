@@ -16,7 +16,7 @@ var getOnce struct {
 }
 
 func getOgenVersion(m *debug.Module) (string, bool) {
-	if m == nil || m.Path != "github.com/ogen-go/ogen" {
+	if m == nil || m.Path != "github.com/morozovcookie/ogen" {
 		return "", false
 	}
 	return m.Version, true

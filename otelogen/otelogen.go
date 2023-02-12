@@ -2,4 +2,4 @@
 package otelogen
 
 // Name of instrumentation.
-const Name = "github.com/ogen-go/ogen"
+const Name = "github.com/morozovcookie/ogen"

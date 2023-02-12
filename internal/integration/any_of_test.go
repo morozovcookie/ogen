@@ -7,7 +7,7 @@ import (
 	"github.com/go-faster/jx"
 	"github.com/stretchr/testify/require"
 
-	api "github.com/ogen-go/ogen/internal/integration/test_anyof"
+	api "github.com/morozovcookie/ogen/internal/integration/test_anyof"
 )
 
 func TestValidateSum(t *testing.T) {

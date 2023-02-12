@@ -3,9 +3,9 @@ package parser
 import (
 	"github.com/go-faster/errors"
 
-	"github.com/ogen-go/ogen"
-	"github.com/ogen-go/ogen/internal/jsonpointer"
-	"github.com/ogen-go/ogen/openapi"
+	"github.com/morozovcookie/ogen"
+	"github.com/morozovcookie/ogen/internal/jsonpointer"
+	"github.com/morozovcookie/ogen/openapi"
 )
 
 func (p *parser) parseHeaders(headers map[string]*ogen.Header, ctx *jsonpointer.ResolveCtx) (_ map[string]*openapi.Header, err error) {

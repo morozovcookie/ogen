@@ -7,7 +7,7 @@ import (
 	yaml "github.com/go-faster/yamlx"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ogen-go/ogen"
+	"github.com/morozovcookie/ogen"
 )
 
 func TestExtensionParsing(t *testing.T) {

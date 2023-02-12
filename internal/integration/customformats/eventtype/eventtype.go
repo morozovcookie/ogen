@@ -6,7 +6,7 @@ import (
 
 	"github.com/go-faster/jx"
 
-	"github.com/ogen-go/ogen/gen"
+	"github.com/morozovcookie/ogen/gen"
 )
 
 type Event = any

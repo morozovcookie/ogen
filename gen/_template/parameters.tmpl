@@ -1,4 +1,4 @@
-{{- /*gotype: github.com/ogen-go/ogen/gen.TemplateConfig*/ -}}
+{{- /*gotype: github.com/morozovcookie/ogen/gen.TemplateConfig*/ -}}
 
 {{ define "parameters" }}
 {{ $pkg := $.Package }}
@@ -15,7 +15,7 @@
 {{ end }}
 
 {{ define "parameters/operation" }}
-{{- /*gotype: github.com/ogen-go/ogen/gen.OperationElem*/ -}}{{ $op := $.Operation }}
+{{- /*gotype: github.com/morozovcookie/ogen/gen.OperationElem*/ -}}{{ $op := $.Operation }}
 // {{ $op.Name }}Params is parameters of {{ $op.PrettyOperationID }} operation.
 type {{ $op.Name }}Params struct {
 {{- range $p := $op.Params }}

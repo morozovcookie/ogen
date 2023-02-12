@@ -1,5 +1,5 @@
 {{ define "response_decoders" }}
-{{- /*gotype: github.com/ogen-go/ogen/gen.TemplateConfig*/ -}}
+{{- /*gotype: github.com/morozovcookie/ogen/gen.TemplateConfig*/ -}}
 {{ $pkg := $.Package }}
 {{ template "header" $ }}
 
@@ -18,7 +18,7 @@
 {{ end }}
 
 {{ define "response_decoders/operation" }}
-{{- /*gotype: github.com/ogen-go/ogen/gen.OperationElem*/ -}}{{ $op := $.Operation }}
+{{- /*gotype: github.com/morozovcookie/ogen/gen.OperationElem*/ -}}{{ $op := $.Operation }}
 func decode{{ $op.Name }}Response(resp *http.Response) (res {{ $op.Responses.GoType }}, err error) {
 	{{- with $statusCodes := $op.Responses.StatusCode }}
 	switch resp.StatusCode {
@@ -59,7 +59,7 @@ func decode{{ $op.Name }}Response(resp *http.Response) (res {{ $op.Responses.GoT
 {{ end }}
 
 {{- define "decode_response" }}
-{{- /*gotype: github.com/ogen-go/ogen/gen.ResponseElem*/ -}}
+{{- /*gotype: github.com/morozovcookie/ogen/gen.ResponseElem*/ -}}
 {{- $response := $.Response }}
 {{- $ptr := $.Ptr }}
 {{- if $response.NoContent }}{{/* Decode NoContent response */}}

@@ -3,7 +3,7 @@ package ir
 import (
 	"golang.org/x/exp/slices"
 
-	"github.com/ogen-go/ogen/openapi"
+	"github.com/morozovcookie/ogen/openapi"
 )
 
 func (op *Operation) PathParams() []*Parameter   { return op.getParams(openapi.LocationPath) }

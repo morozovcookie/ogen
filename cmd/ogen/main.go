@@ -17,12 +17,12 @@ import (
 	"go.uber.org/multierr"
 	"go.uber.org/zap"
 
-	"github.com/ogen-go/ogen"
-	"github.com/ogen-go/ogen/gen"
-	"github.com/ogen-go/ogen/gen/genfs"
-	"github.com/ogen-go/ogen/internal/location"
-	"github.com/ogen-go/ogen/internal/ogenversion"
-	"github.com/ogen-go/ogen/internal/ogenzap"
+	"github.com/morozovcookie/ogen"
+	"github.com/morozovcookie/ogen/gen"
+	"github.com/morozovcookie/ogen/gen/genfs"
+	"github.com/morozovcookie/ogen/internal/location"
+	"github.com/morozovcookie/ogen/internal/ogenversion"
+	"github.com/morozovcookie/ogen/internal/ogenzap"
 )
 
 func cleanDir(targetDir string, files []os.DirEntry) (rerr error) {

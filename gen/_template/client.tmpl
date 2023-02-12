@@ -1,5 +1,5 @@
 {{ define "client" }}
-{{- /*gotype: github.com/ogen-go/ogen/gen.TemplateConfig*/ -}}
+{{- /*gotype: github.com/morozovcookie/ogen/gen.TemplateConfig*/ -}}
 {{ $pkg := $.Package }}
 {{ template "header" $ }}
 
@@ -95,7 +95,7 @@ func NewWebhookClient(opts ...ClientOption) (*WebhookClient, error) {
 {{ end }}
 
 {{ define "client/operation" }}
-{{- /*gotype: github.com/ogen-go/ogen/gen/ir.Operation*/ -}}{{ $op := $ }}
+{{- /*gotype: github.com/morozovcookie/ogen/gen/ir.Operation*/ -}}{{ $op := $ }}
 // {{ $op.Name }} invokes {{ $op.PrettyOperationID }} operation.
 //
 {{- template "godoc_op" $op }}

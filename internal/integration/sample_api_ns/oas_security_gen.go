@@ -8,7 +8,7 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/ogen-go/ogen/ogenerrors"
+	"github.com/morozovcookie/ogen/ogenerrors"
 )
 
 // SecuritySource is provider of security values (tokens, passwords, etc.).

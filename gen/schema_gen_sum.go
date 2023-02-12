@@ -11,10 +11,10 @@ import (
 	"github.com/go-faster/jx"
 	"golang.org/x/exp/slices"
 
-	"github.com/ogen-go/ogen/gen/ir"
-	"github.com/ogen-go/ogen/internal/xmaps"
-	"github.com/ogen-go/ogen/internal/xslices"
-	"github.com/ogen-go/ogen/jsonschema"
+	"github.com/morozovcookie/ogen/gen/ir"
+	"github.com/morozovcookie/ogen/internal/xmaps"
+	"github.com/morozovcookie/ogen/internal/xslices"
+	"github.com/morozovcookie/ogen/jsonschema"
 )
 
 func canUseTypeDiscriminator(sum []*ir.Type, isOneOf bool) bool {

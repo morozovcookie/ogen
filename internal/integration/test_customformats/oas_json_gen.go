@@ -9,9 +9,9 @@ import (
 	"github.com/go-faster/errors"
 	"github.com/go-faster/jx"
 
-	custom2 "github.com/ogen-go/ogen/internal/integration/customformats/phonetype"
-	custom3 "github.com/ogen-go/ogen/internal/integration/customformats/rgbatype"
-	"github.com/ogen-go/ogen/validate"
+	custom2 "github.com/morozovcookie/ogen/internal/integration/customformats/phonetype"
+	custom3 "github.com/morozovcookie/ogen/internal/integration/customformats/rgbatype"
+	"github.com/morozovcookie/ogen/validate"
 )
 
 // Encode encodes int64 as json.

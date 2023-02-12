@@ -1,5 +1,5 @@
 {{ define "request_encoders" }}
-{{- /*gotype: github.com/ogen-go/ogen/gen.TemplateConfig*/ -}}
+{{- /*gotype: github.com/morozovcookie/ogen/gen.TemplateConfig*/ -}}
 {{ $pkg := $.Package }}
 {{ template "header" $ }}
 
@@ -18,7 +18,7 @@
 {{ end }}
 
 {{ define "request_encoders/operation" }}
-{{- /*gotype: github.com/ogen-go/ogen/gen/ir.Operation*/ -}}{{ $op := $ }}
+{{- /*gotype: github.com/morozovcookie/ogen/gen/ir.Operation*/ -}}{{ $op := $ }}
 func encode{{ $op.Name }}Request(
 	req {{ $op.Request.GoType }},
 	r *http.Request,
@@ -75,7 +75,7 @@ func encode{{ $op.Name }}Request(
 {{ end }}
 
 {{- define "encode_request" }}
-{{- /*gotype: github.com/ogen-go/ogen/gen/ir.Media*/ -}}
+{{- /*gotype: github.com/morozovcookie/ogen/gen/ir.Media*/ -}}
 {{- $type := $.Type }}
 {{- $encoding := $.Encoding }}
 {{- $unaliased := $type }}{{- if $type.IsAlias }}{{ $unaliased = $type.AliasTo }}{{- end }}
@@ -182,7 +182,7 @@ func encode{{ $op.Name }}Request(
 {{- end }}
 
 {{- define "encode_multipart_file_param" }}
-{{- /*gotype: github.com/ogen-go/ogen/gen/ir.Parameter*/ -}}
+{{- /*gotype: github.com/morozovcookie/ogen/gen/ir.Parameter*/ -}}
 {{- $name := quote $.Spec.Name }}
 {{- $errWrite := printf "write %s" $name | quote }}
 {{- $recv := printf "request.%s" $.Name }}
